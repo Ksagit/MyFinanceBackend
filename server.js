@@ -114,7 +114,6 @@ app.delete("/api/budgets/:id", async (req, res) => {
   }
 });
 
-// Uruchomienie serwera
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
